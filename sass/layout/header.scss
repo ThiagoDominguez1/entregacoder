@@ -1,0 +1,22 @@
+    header {
+        background-color: $secondary-color;
+        color: $secondary-color;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10%;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            h1 {
+                font-size: 2.5rem;
+                color: $terciary-color;
+                text-align: left;
+                text-decoration: none;
+            }
+            a {
+                text-decoration: none;
+                color: $quaternary-color;
+            }
+        }
+    }
